@@ -52,7 +52,7 @@ class App(CTk):
                 file.close()
 
 
-
+        App.title(self, "To-Do app made by David12307")
         main_frame = CTkFrame(self, fg_color=self.cget("bg"))
         main_frame.grid(row = 0, column=0, padx=10, pady=10)
 
