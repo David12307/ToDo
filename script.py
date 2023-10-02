@@ -70,7 +70,7 @@ class App(CTk):
         openBtn = CTkButton(master=main_frame, text="Open a file", command=readFile)
         openBtn.place(x=255, y=50)
 
-        writeBtn = CTkButton(master=main_frame, text="Write a file", command=writeFile)
+        writeBtn = CTkButton(master=main_frame, text="Save as", command=writeFile)
         writeBtn.place(x=255, y=10)
 
         listbox = CTkListbox(main_frame, 100, 200)
